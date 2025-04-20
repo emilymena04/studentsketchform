@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Sip and Sketch | Emily Mena, 2025</title>
+<link href="styles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<img src="coffeebeans.png" alt="Coffee Beans Bottom Left" class="cornebottomleft">
+<img src="coffeebean2.png" alt="Coffee Beans Top Right" class="cornertopright">
+
+<div class="background-title">
+<img src="coffeecup.png" alt="Coffee Cup Icon" class="logo-icon">
+  <h1>Sip &amp; Sketch</h1>
+  <p>A cozy coffee shop that hosts creative workshops</p>
+</div>
+	
+<wrapper>
+  <header></header>
+</wrapper>
+	
+  <div class="wrapper">
+    <main>
+  <form action="confirm.html" method="GET">
+    <div class="form-row">
+<label>Salutation*<br>
+    <select name="salutation" required>
+      <option value="">Select</option>
+      <option value="Mr.">Mr.</option>
+      <option value="Ms.">Ms.</option>
+      <option value="Mrs.">Mrs.</option>
+      <option value="Dr.">Dr.</option>
+    </select>
+  </label>
+      <label>First Name*<br>
+        <input type="text" name="firstName" required placeholder="First Name" title="Your first name is required">
+      </label>
+
+      <label>Last Name*<br>
+        <input type="text" name="lastName" required placeholder="Last Name">
+      </label>
+    </div>
+
+    <div class="form-row">
+      <label>Email Address*<br>
+        <input type="email" name="email" required placeholder="you@example.com" title="Your email is required">
+      </label>
+
+      <label>Phone Number*<br>
+        <input type="tel" name="phone" required placeholder="(000) 000-0000" title="Your phone number is required" pattern="^\(\d{3}\) \d{3}-\d{4}$">
+      </label>
+    </div>
+	  
+<div class="form-row">
+  <label>Workshop Type*<br>
+    <select name="workshopType" required>
+      <option value="">Select a type</option>
+      <option value="Painting">Painting</option>
+      <option value="Calligraphy">Calligraphy</option>
+      <option value="Pottery">Pottery</option>
+      <option value="Sketching">Sketching</option>
+    </select>
+  </label>
+
+  <label>Workshop Date*<br>
+    <input type="date" name="workshopDate" required>
+  </label>
+
+  <label>Workshop Time*<br>
+    <input type="time" name="workshopTime" required>
+  </label>
+</div>
+
+    <div class="form-row single">
+      <label>
+        <input type="checkbox" required> I accept the terms and conditions
+      </label>
+    </div>
+
+    <div class="form-row single">
+      <input type="submit" value="Book">
+    </div>
+  </form>
+</main>
+</div>
+	
+<footer>
+<p>© 2025, Emily Mena. This is a fictitious web page created solely for the purpose of education and training. All products and people associated with this web page are also fictitious. Any resemblance to real brands, products, or people is purely coincidental.</p>
+</footer>
+	
+</body>
+</html>
